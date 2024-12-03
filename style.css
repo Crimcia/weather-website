@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto";
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-top: 0;
+}
+h2{
+    display: inline;
+}
+#city-input{
+    height: 25px;
+    border: solid 1px;
+    border-radius: 6px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+main{
+    background-color: white;
+    width: 95%;
+    margin: 0px 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(240, 231, 231);
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 25%;
+}
+aside{
+    width: 75%;
+}
+section, aside{
+    padding: 30px;
+}
+.date-par, .humidity-text, .wind-speed-text{
+    /* margin-left: 35px; */
+    color: gray;
+}
+.humidity-val, .wind-speed-val{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .temp-text{
+    display: flex;
+    justify-content: center;
+} */
+ .humidity-cont, .wind-speed-cont{
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+ }
+ .bottom{
+    display: flex;
+    justify-content: center;
+ }
